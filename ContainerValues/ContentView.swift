@@ -27,6 +27,9 @@ struct ContentView: View {
     ]
     
     var body: some View {
+        // カラーパレット
+//        ColorView()
+        
         FeatureList {
             Section(header: Text("Header A"), footer: Text("Footer A")) {
                 ForEach(colorItems) { item in
